@@ -1,0 +1,5 @@
+C:\Users\User\source\repos\Instagram CLone\Instagram CLone\x64\Debug\Instagram CLone.vcxproj.AssemblyReference.cache
+C:\Users\User\source\repos\Instagram CLone\Instagram CLone\x64\Debug\InstagramCLone.Register.resources
+C:\Users\User\source\repos\Instagram CLone\Instagram CLone\x64\Debug\InstagramCLone.SignUp.resources
+C:\Users\User\source\repos\Instagram CLone\Instagram CLone\x64\Debug\Instagram CLone.vcxproj.GenerateResource.cache
+C:\Users\User\source\repos\Instagram CLone\Instagram CLone\x64\Debug\InstagramCLone.Home_Feed.resources
