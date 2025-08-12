@@ -2,6 +2,7 @@
 #include "SignUp.h"
 #include <string>
 #include "auth.h"
+#include "Home_Feed.h"
 #include <msclr\marshal_cppstd.h>
 using namespace System;
 using namespace System::Windows::Forms;
@@ -29,7 +30,9 @@ System::Void InstagramCLone::Register::login_Click(System::Object^ sender, Syste
         return;
 	}
     if (Authentication::login(username, password)) {
-        MessageBox::Show("Login successful!", "Success", MessageBoxButtons::OK, MessageBoxIcon::Information);
+        this->Hide();
+        InstagramCLone::Home_Feed^ homeFeed = gcnew InstagramCLone::Home_Feed();
+		homeFeed->Show();
     } else {
 		Error->Text = "Invalid username or password.";
         Error->Visible = true;
