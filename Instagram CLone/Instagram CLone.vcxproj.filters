@@ -44,5 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="users.txt" />
+    <Text Include="posts.txt" />
   </ItemGroup>
 </Project>
