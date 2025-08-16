@@ -1,2 +1,2 @@
-Huzaifa_ahmed|C:\Users\User\Downloads\image1.jpg|My first post
-ahmed_ali|C:\Users\User\Downloads\image2.jpg|A beautiful day at the park
+Huzaifa_ahmed|C:\Users\User\Downloads\image1.jpg|My first post|0
+ahmed_ali|C:\Users\User\Downloads\image2.jpg|A beautiful day at the park|1

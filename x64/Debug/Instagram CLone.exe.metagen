@@ -20,7 +20,9 @@ Class InstagramCLone.Home_Feed: AutoLayout, AnsiClass, Class, Public, BeforeFiel
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
-    LoadDummyPosts(): PrivateScope, Public, HideBySig
+    LoadPostsFromFile(vector<Post\,std::allocator<Post> >*, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    SavePostsToFile(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced, vector<Post\,std::allocator<Post> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    LoadFeed(FlowLayoutPanel, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
 Class InstagramCLone.Register: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
